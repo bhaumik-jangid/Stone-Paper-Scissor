@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissor Game</h1>
+    <div class="choice-display">
+        <div class="user">
+            <div class="score">
+                <p>Your choice</p>
+            </div>
+            <div class="choices">
+                <div class="choice" id="rock">
+                    <img src="./Imges/Rock.jpg" alt="rock">
+                </div>
+                <div class="choice" id="paper">
+                    <img src="./Imges/Paper.jpg" alt="paper">
+                </div>
+                <div class="choice" id="scissor">
+                    <img src="./Imges/Scissor.jpg" alt="scissor">
+                </div>
+            </div>
+            <div class="score">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+        </div>
+        <div class="comp">
+            <div class="score">
+                <p>Computer choice</p>
+            </div>
+            <div class="compchoices">
+                <div>
+                    <img class="compchoice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Blue_question_mark_icon.svg/2048px-Blue_question_mark_icon.svg.png">
+                    <img class="compchoice hide" src="./Imges/comp-rock.jpg">
+                    <img class="compchoice hide" src="./Imges/comp-paper.jpg">
+                    <img class="compchoice hide" src="./Imges/comp-scissor.jpg">
+                </div>
+            </div>
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p>Comp</p>
+            </div>
+        </div>
+    </div>
+    <div class="score-card">
+        
+    </div>
+    <div class="msg-container">
+        <p id="msg">Pick Your Move</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
